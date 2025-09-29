@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de Estudio con Gemini AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Asistente de Estudio 🧠</h1>
+            <p>Introduce un ejercicio de 4º de la ESO y Gemini AI te ayudará a resolverlo paso a paso.</p>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Ej: 'Resuelve la ecuación 2x + 5 = 15'">
+            <button id="searchButton">Buscar</button>
+        </div>
+
+        <div class="tabs-container">
+            <div id="tabs"></div>
+            <button id="newTabButton">+</button>
+        </div>
+
+        <div id="content-area">
+            </div>
+
+        <div class="actions">
+            <button id="saveButton">Guardar Ejercicio</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
